@@ -58,5 +58,24 @@ var AltaSlider = new Swiper('.alta-slider', {
   }
 });
 
-
-
+// comentarios
+var swiper = new Swiper(".reviews-slider", {
+  loop:true,
+  grabCursor: true,
+  spaceBetween: 20,
+  pagination: {
+     el: ".swiper-pagination",
+     clickable:true,
+  },
+  breakpoints: {
+     0: {
+     slidesPerView: 1,
+     },
+     700: {
+     slidesPerView: 2,
+     },
+     1024: {
+     slidesPerView: 3,
+     },
+  },
+});
