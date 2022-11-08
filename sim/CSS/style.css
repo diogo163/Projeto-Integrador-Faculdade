@@ -544,7 +544,8 @@ body {
 
 /* sobre-nós */
 .imagem-sobre{
-  height: 300px;
+  height: 350px;
+  width: 100%;
 }
 .about-us{
   background-color: #000;
