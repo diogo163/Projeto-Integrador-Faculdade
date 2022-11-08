@@ -35,6 +35,10 @@
   justify-content: space-between;
   align-items: center;
 }
+a {
+  color: black;
+  text-decoration: none;
+}
 a.site-logo {
   font-size: 26px;
   font-weight: 800;
@@ -544,7 +548,7 @@ body {
 
 /* sobre-nós */
 .imagem-sobre{
-  height: 350px;
+  height: 300px;
   width: 100%;
 }
 .about-us{
@@ -557,6 +561,7 @@ body {
 .btn-sobre{
   background-color: #ec994b;
   color: #fff;
+  text-decoration: none;
 }
 
 

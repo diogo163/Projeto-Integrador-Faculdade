@@ -25,6 +25,33 @@ background-color: rgba(0,0,0,0.5) !important;
 font-size: 60px;
 margin-left: 10px;
 }
+.return-button{
+    display: flex;
+    align-items: left;
+    padding-right: 89%;
+    padding-top: 0;
+    
+}
+
+.return-button button{
+    border: none;
+    /* background-color: #6c63ff; */
+    background-color:#ec994b ; 
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.return-button button:hover{
+    /* background-color: #6b63fff1; */
+    background-color:#bb8756 ;
+}
+
+.return-button button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
 
 .fa-facebook-square{
     color: blue;
